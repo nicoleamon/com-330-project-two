@@ -6,7 +6,11 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* Begin site styles... */
 /*Add custom styles below...*/
+/*16px*/
 
 html {
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.125em; /* 18px / 16px */
+  background-color: rgb(219, 233, 255); /*light blue color*/
+  margin: 1.875em ; /* 30px / 16px */
 }
