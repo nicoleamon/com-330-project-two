@@ -14,8 +14,10 @@ html {
   background-color: rgb(219, 233, 255); /*light blue color*/
   margin: 1.875em ; /* 30px / 16px */
 }
-img {
-  width: 100%;
+/* Responsive media */
+img,audio,video {
+  display: block;
+  max-width: 100%;
 }
 h1 {
   text-align: center;
