@@ -35,7 +35,9 @@ h2 {
   grid-row-gap: 0.9375em; /* 15px / 16px */
 }
 .header {
-
+  grid-column: 1/4;
+  grid-row:1/2;
+  background-color: rgb(176,176,176);
 }
 .photo > img {
   object-fit: cover;
