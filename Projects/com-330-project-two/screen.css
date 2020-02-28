@@ -35,7 +35,6 @@ h2 {
 }
 p {
   line-height: 1.25em; /* 20px/ 16px */
-  margin: 1em; /* 16px / 16 px */
 }
 .photo > img {
   object-fit: cover;
