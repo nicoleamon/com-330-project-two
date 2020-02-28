@@ -61,9 +61,13 @@ p {
 }
 .running {
   grid-column: 1;
-  grid-row: auto;
+  grid-row: 5em;
 }
 .runforfun {
   grid-column: 2 / 4;
-  grid-row: 5em;
+  grid-row: auto;
+}
+.colorrun {
+  grid-column: 3 / 4;
+  grid-row:
 }
