@@ -59,3 +59,11 @@ p {
   grid-row: auto;
   background-color: rgb(161,161,161);
 }
+.running {
+  grid-column: 1;
+  grid-row: auto;
+}
+.runforfun {
+  grid-column: 2 / 4;
+  grid-row: 5em;
+}
