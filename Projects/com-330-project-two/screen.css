@@ -19,11 +19,6 @@ img,audio,video {
   display: block;
   max-width: 100%;
 }
-h1 {
-  text-align: center;
-  font-size: 1.625em; /* 26px / 16 px */
-  line-height: 1.25em; /* 20px / 16 px */
-}
 h2 {
   font-size: 1.25em; /* 20px / 16px */
   line-height: 1.25em; /* 20px / 16px */
@@ -44,4 +39,11 @@ h2 {
   grid-column: 1 / 4;
   grid-row: 1 / 2;
   background-color: rgb(0,3,87);
+}
+h1 {
+  text-align: center;
+  font-size: 1.875em; /* 30px / 16 px */
+  line-height: 1.25em; /* 20px / 16 px */
+  padding: 1em; /* 16px / 16 px */
+  color: rgb(255,255,255)
 }
