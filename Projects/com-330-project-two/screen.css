@@ -31,7 +31,7 @@ h2 {
   text-align: center;
   font-size: 1.25em; /* 20px / 16px */
   line-height: 1.25em; /* 20px / 16px */
-  padding-top: 0.5em; /* 8px / 16px */
+  padding: 0.5em; /* 8px / 16px */
 }
 p {
   line-height: 1.25em; /* 20px/ 16px */
@@ -61,7 +61,7 @@ p {
 }
 .running,.springhalf {
   grid-column: 1;
-  grid-row: 5em;
+  grid-row: auto;
 }
 .runforfun,.goals {
   grid-column: 2 / 4;
@@ -69,9 +69,9 @@ p {
 }
 .colorrun {
   grid-column: 3 / 4;
-  grid-row: auto;
+  grid-row: 4;
 }
 .runbetter {
   grid-column: 1 / 3;
-  grid-row: 4;
+  grid-row: auto;
 }
