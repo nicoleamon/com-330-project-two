@@ -61,7 +61,7 @@ p {
   grid-row: auto;
   background-color: rgb(161,161,161);
 }
-.running,.runforfun,.colorrun,.runbetter,.springhalf,.goals,.marathon,.endgoal {
+.running,.runforfun,.colorrun,.runbetter,.springhalf,.goals,.marathon,.endgoal,.whatsnext {
   grid-column: 1 / 4;
   grid-row: auto;
 }
@@ -94,5 +94,8 @@ p {
   grid-column: 3 / 4 ;
   grid-row: 6; /* this content needs to be placed in row 6, otherwise
   goes into the next row */
+}
+.whatsnext{
+  grid-column: 1 / 4;  
 }
 }
