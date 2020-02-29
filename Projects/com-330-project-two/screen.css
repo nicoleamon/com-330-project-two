@@ -33,6 +33,13 @@ h2 {
   line-height: 1.25em; /* 20px / 16px */
   padding: 0.5em; /* 8px / 16px */
 }
+h3 {
+  text-align: center;
+  font-size: 1.25em; /* 20px / 16px */
+  line-height: 1.25em; /* 20px / 16px */
+  padding: 0.5em; /* 8px / 16px */
+  color: rgb(0,3,87);
+}
 p {
   line-height: 1.25em; /* 20px/ 16px */
   padding-left: 0.5em; /* 8px / 16px */
@@ -61,9 +68,13 @@ p {
   grid-row: auto;
   background-color: rgb(161,161,161);
 }
-.running,.runforfun,.colorrun,.runbetter,.springhalf,.goals,.marathon,.endgoal,.whatsnext {
+.running,.runforfun,.colorrun,.runbetter,.springhalf,.goals,.marathon,.endgoal,.whatsnext,.gallery {
   grid-column: 1 / 4;
   grid-row: auto;
+}
+.gallery {
+  display: flex;
+  width: 100%;
 }
 @media screen and (min-width: 375px){
 .container {
@@ -95,7 +106,7 @@ p {
   grid-row: 6; /* this content needs to be placed in row 6, otherwise
   goes into the next row */
 }
-.whatsnext{
-  grid-column: 1 / 4;  
+.whatsnext, .gallery{
+  grid-column: 1 / 4;
 }
 }
