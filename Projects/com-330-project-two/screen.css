@@ -35,7 +35,7 @@ h2 {
 }
 p {
   line-height: 1.25em; /* 20px/ 16px */
-}
+  }
 .photo > img {
   object-fit: cover;
   width: 100%;
@@ -58,6 +58,18 @@ p {
   grid-row: auto;
   background-color: rgb(161,161,161);
 }
+.running,.runforfun,.colorrun,.runbetter,.springhalf,.goals,.marathon,.endgoal {
+  grid-column: 1 / 4;
+  grid-row: auto;
+}
+@media screen and (min-width: 375px){
+.container {
+  display: grid;
+  grid-template-columns: 0.4fr 0.3fr 0.3fr;
+  grid-template-rows: auto;
+  grid-column-gap: 0.625em; /* 10px / 16px */
+  grid-row-gap: 0.625em; /* 15px / 16px */
+}
 .running,.springhalf {
   grid-column: 1;
   grid-row: auto;
@@ -76,7 +88,8 @@ p {
   grid-row: auto;
 }
 .marathon {
-  grid-column: 3 /4 ;
+  grid-column: 3 / 4 ;
   grid-row: 6; /* this content needs to be placed in row 6, otherwise
   goes into the next row */
+}
 }
