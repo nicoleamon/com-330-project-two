@@ -19,7 +19,7 @@ img,audio,video {
   display: block;
   max-width: 100%;
 }
-/*general text settings*/
+/*mobile first settings*/
 h1 {
   text-align: center;
   font-size: 1.875em; /* 30px / 16 px */
@@ -35,6 +35,9 @@ h2 {
 }
 p {
   line-height: 1.25em; /* 20px/ 16px */
+  padding-left: 0.5em; /* 8px / 16px */
+  padding-right: 0.5em ; /* 8px / 16px */
+  padding-bottom: 0.5em; /* 8px / 16px */
   }
 .photo > img {
   object-fit: cover;
@@ -65,7 +68,7 @@ p {
 @media screen and (min-width: 375px){
 .container {
   display: grid;
-  grid-template-columns: 0.4fr 0.3fr 0.3fr;
+  grid-template-columns: 0.4fr 0.2fr 0.4fr;
   grid-template-rows: auto;
   grid-column-gap: 0.625em; /* 10px / 16px */
   grid-row-gap: 0.625em; /* 15px / 16px */
