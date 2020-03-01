@@ -105,17 +105,30 @@ p {
 .content {
   display: grid;
   grid-template-columns: 0.8fr 0.8fr;
-  grid-template-rows: .3fr;
+  grid-template-rows: .5fr;
   grid-column-gap: 1.25em; /* 20px / 16px */
   grid-row-gap: 0.3125em; /* 5px / 16px */
 }
-.lgallery{
+.spimage, .spfam, .fahalf{
   grid-column: 1 / 2;
-  grid-row: 1;
+  grid-row:  auto;
+  display: flex;
+
 }
-.rgallery {
+.mafam {
   grid-column: 2 / 3;
   grid-row: 1;
-  height: 100%;
+  display: flex;
 }
+.masifr {
+  grid-column: 2 / 3;
+  grid-row: 2;
+  display: flex;
+}
+.mafr {
+    grid-column: 2 / 3;
+    grid-row: 3;
+    display: flex;
+}
+
 }
