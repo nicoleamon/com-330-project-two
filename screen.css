@@ -118,9 +118,4 @@ h3 {
 .whatsnext, .gallery{
   grid-column: 1 / 4;
 }
-.content {
-  display: grid;
-  grid-column-gap: 1.25em; /* 20px / 16px */
-  display: flex;
-}
 }
