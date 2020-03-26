@@ -18,6 +18,9 @@ html {
 /* Responsive media */
 img,audio,video {
   display: block;
+  margin-left: auto;
+  margin-right: auto;
+
   max-width: 100%;
 }
 /*mobile first settings*/
@@ -36,6 +39,8 @@ header {
 }
 .runbkgrd {
   background-color: rgb(74,107,204);
+  padding-bottom: 1.25em;
+  padding-top: 1.25em;
 }
 h2 {
   text-align: center;
@@ -65,15 +70,18 @@ p {
   padding-right: 0.5em ; /* 8px / 16px */
   padding-bottom: 0.5em; /* 8px / 16px */
   }
-
+/*ipad and tablet view*/
 /*desktop view*/
-@media screen and (min-width: 450px){
-.container {
+@media screen and (min-width: 800px){
+.grid {
   display: grid;
   grid-template-columns: 0.4fr 0.2fr 0.4fr;
   grid-template-rows: auto;
   grid-column-gap: 0.625em; /* 10px / 16px */
   grid-row-gap: 0.625em; /* 15px / 16px */
+}
+.runbkgrd {
+  grid-column: 1 / 4;
 }
 .running,.springhalf {
   grid-column: 1;
