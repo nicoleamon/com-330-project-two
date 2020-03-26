@@ -34,6 +34,9 @@ header {
   grid-row: 1 / 2;
   background-color: rgb(44,66,128);
 }
+.runbkgrd {
+  background-color: rgb(74,107,204);
+}
 h2 {
   text-align: center;
   font-weight: bold;
@@ -51,6 +54,7 @@ h3 {
 h4 {
   text-align: center;
   font-size: 1.25em; /* 20px / 16px */
+  font-weight: bold;
   line-height: 1.25em; /* 20px / 16px */
   padding: 0.5em; /* 8px / 16px */
   color: rgb(0,3,87);
@@ -61,25 +65,9 @@ p {
   padding-right: 0.5em ; /* 8px / 16px */
   padding-bottom: 0.5em; /* 8px / 16px */
   }
-.container {
-  display: grid;
-  grid-template-columns: 0.6fr 0.4fr 0.6fr;
-  grid-template-rows: auto;
-  grid-column-gap: 0.625em; /* 10px / 16px */
-  grid-row-gap: 0.625em; /* 15px / 16px */
-}
-.runbkgrd {
-  grid-column: 1 / 4;
-  grid-row: auto;
-  background-color: rgb(74,107,204);
-}
-.running,.runforfun,.colorrun,.runbetter,.springhalf,.goals,.marathon,.endgoal,.whatsnext,.gallery {
-  grid-column: 1 / 4;
-  grid-row: auto;
-}
 
 /*desktop view*/
-@media screen and (min-width: 375px){
+@media screen and (min-width: 450px){
 .container {
   display: grid;
   grid-template-columns: 0.4fr 0.2fr 0.4fr;
