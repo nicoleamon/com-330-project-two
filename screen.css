@@ -83,6 +83,10 @@ h3 {
 }
 /*desktop view*/
 @media screen and (min-width: 800px){
+html {
+  margin-left: 5.625em;
+  margin-right: 5.625em;
+}
 .grid {
   display: grid;
   grid-template-columns: 0.4fr 0.2fr 0.4fr;
